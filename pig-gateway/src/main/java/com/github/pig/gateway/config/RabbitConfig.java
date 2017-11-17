@@ -1,7 +1,6 @@
 package com.github.pig.gateway.config;
 
 import com.github.pig.common.constant.CommonConstant;
-import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -12,8 +11,8 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class RabbitConfig {
-    @Bean
-    public Queue helloQueue() {
-        return new Queue(CommonConstant.LOG_QUEUE);
-    }
+//    @Bean
+//    public Queue helloQueue() {
+//        return new Queue(CommonConstant.LOG_QUEUE);
+//    }
 }
